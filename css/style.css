@@ -1,0 +1,255 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 14px;
+}
+.navbar {
+    border-radius: 0;
+}
+.navbar-inverse,
+.navbar-brand  {
+    background-color: #27c00a;
+    border-color:  #27c00a;
+}
+.navbar-collapse > .navbar-nav > li > a,
+.navbar-inverse .container .navbar-header > a {
+    color: white;
+}
+.collapse.navbar-collapse.navbar-right {
+    margin-right: -15px;
+}
+header > div.container-fluid > div.row {
+    margin-bottom: -20px;
+}
+section.home {
+    margin-top: 0;
+    background-image: url(../images/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 650px;
+}
+div.head-container > h1 {
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 320px;
+    color: white;
+}
+div.head-container > h2 {
+    font-size: 40px !important;
+    font-weight: 600!important;
+    color: #27C00A;
+    padding-left: 20px;
+    margin-top: 17px;
+}
+.form-container {
+    background-color: rgba(0, 255, 41, 0.25);
+    min-height: 350px;
+    margin-top: 190px;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 0 5px;
+}
+.form-container > h3 {
+    line-height: 80px;
+}
+form > div.col-xs-12 {
+    margin-top: -5px;
+}
+div.head-container > p {
+    color: white;
+    padding-left: 20px;
+}
+.form-item {
+    margin-bottom: 20px;
+}
+input,
+textarea {
+    width: 100%;
+    background-color: rgba(0, 255, 41, 0.01);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    padding: 6px 12px;
+}
+.form-item > button.btn-success {
+    margin-top: -10px;
+}
+.row-form {
+    padding: 10px 15px 10px 15px;
+}
+
+/*section class="services"*/
+.panel-body {
+    padding: 15px;
+}
+ul.nav-pills {
+    background-color: #ECECEC;
+    border: none;
+    text-transform: capitalize;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #27C00A;
+}
+div.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+section.services h2 {
+    color: #27C00A;
+    margin-top: 69px;
+}
+section.services h4 {
+    margin-left: 15px;
+    margin-top: 6px;
+}
+section.services p {
+    font-weight: 300;
+    line-height: 30px;
+}
+.services-content h3 {
+    margin-top: 22px;
+}
+.services-advantages {
+    margin-top: 91px;
+}
+i.__green {
+    color: #27C00A;
+}
+.services-advantages h3 {
+    margin-top: 23px;
+}
+.services-advantages p {
+    margin-top: 32px;
+}
+.services-content {
+    margin-top: 70px;
+}
+div.tab-content p {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.services-content > div.__left p {
+    margin-top: 32px;
+}
+
+/*section class="just-space __first"*/
+section.just-space {
+    margin-top: 70px;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+    color: white;
+}
+section.just-space h2 {
+    color: #27C00A;
+    margin-top: 50PX;
+}
+section.just-space h2 > i {
+    color: white;
+} 
+section.just-space p {
+    margin-top: 53px;
+    margin-bottom: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+/*section class="options"*/
+section.pricing-options {
+    padding-bottom: 70px;
+    min-height: 760px;
+}
+section.pricing-options h2 {
+    color: #27C00A;
+    margin-top: 71px;
+}
+section.pricing-options p {
+    margin-top: 52px;
+    margin-bottom: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    font-size: 18px;
+}
+section.pricing-options ul {
+    list-style: none;
+    padding: 10px 10px;
+    margin: 0;
+}
+section.pricing-options ul:hover {
+    padding: 0;
+}
+section.pricing-options ul:hover > li {
+    padding: 20px 0px;
+}
+section.pricing-options ul:hover > li:nth-of-type(1) {
+    background-color: #658aeb;
+}
+section.pricing-options .col-md-3:hover {
+    padding: 0;
+}
+section.pricing-options ul li {
+    border-top: 1px dashed #000;
+    background: #eef1f3;
+    padding: 15px 0px;
+    color: #434749;
+}
+section.pricing-options ul li:nth-of-type(1){
+    background-color: #6F6F6F;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;    
+}
+section.pricing-options ul li:nth-of-type(2) {
+    padding: 25px 0px;
+    border: none;
+    font-size: 30px;
+    color: #434749;
+    background: #eef1f3;
+}
+section.pricing-options ul li:nth-of-type(1),
+section.pricing-options ul li:nth-of-type(6) {
+    text-transform: uppercase;
+}
+
+/*class="just-space __second"*/
+section.just-space.__second {
+    margin-top: 20px;
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+    color: white;
+}
+
+/*section class="contact"*/
+.contact-container  {
+    margin-top: 50px;
+}
+.contact-container i {
+    color: #616161;
+}
+
+/*footer*/
+footer .navbar.navbar-inverse {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+footer p {
+    color: white;
+    padding-top: 15px;
+    padding-right: 40px;
+}
